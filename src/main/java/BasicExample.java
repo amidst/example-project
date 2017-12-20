@@ -16,7 +16,7 @@ import eu.amidst.latentvariablemodels.staticmodels.classifiers.LatentClassificat
 public class BasicExample {
 	public static void main(String[] args) throws Exception {
 
-		String datapath = "../datasets/";
+		String datapath = "./datasets/";
 
 		System.out.println("init");
 		DataStream data = DataStreamLoader.open(datapath+"codrnaNorm_100k_1.arff");

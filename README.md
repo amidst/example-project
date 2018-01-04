@@ -9,7 +9,7 @@ $ git clone https://github.com/amidst/example-project.git
 Enter in the downloaded folder:
 
 ```bash
-$cd example-project/
+$ cd example-project/
 ```
 
 A code example illustrating the use of the toolbox is provided in the file **./src/main/java/BasicExample.java**. 

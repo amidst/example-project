@@ -1,12 +1,31 @@
 # AMIDST Example project
 
+First, download the example project code:
 
-git clone https://github.com/amidst/example-project.git
+```bash
+$ git clone https://github.com/amidst/example-project.git
+```
 
-cd example-project/
+Enter in the downloaded folder:
 
-./src/main/java/BasicExample.java
+```bash
+$cd example-project/
+```
 
-mvn clean package
+A code example illustrating the use of the toolbox is provided in the file **./src/main/java/BasicExample.java**. 
 
-java -cp target/example-project-full.jar BasicExample
+Compile and build the package:
+
+```bash
+$ mvn clean package
+```
+
+Finally, run the code example previously mentioned:
+
+```bash
+$ java -cp target/example-project-full.jar BasicExample
+
+```
+
+
+*Requirements: git, maven, Java8*

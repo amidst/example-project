@@ -20,7 +20,7 @@ Compile and build the package:
 $ mvn clean package
 ```
 
-Finally, run the code example previously mentioned:
+Finally, run the code example previously mentioned: 
 
 ```bash
 $ java -cp target/example-project-full.jar BasicExample
